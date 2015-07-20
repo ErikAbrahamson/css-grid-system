@@ -1,6 +1,6 @@
 @import 'normalize.css';
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 850px) {
   span {
     display: block;
     vertical-align: top;
@@ -71,10 +71,5 @@
   .col-8 {
     width: 74%;
     height: 80%;
-  }
-}
-@media screen and (max-width: 850px) {
-  .col-1 {
-    min-width: 2%
   }
 }
