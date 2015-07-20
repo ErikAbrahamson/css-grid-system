@@ -2,8 +2,40 @@
 <html>
 <head>
   <title>Erik's CSS Grid System</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
-
+<body class="grid-container">
+  <header class="row">
+    <span>.row</span>
+  </header>
+  <section class='row container'>
+    <span>.row</span>
+    <div class="col-4">
+      <span>.col-4</span>
+    </div>
+    <div class="col-8">
+      <span>.col-8</span>
+      <div class="row">
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+        <div class="col-1"><span>.col-1</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <span>.row</span>
+    <div class="col-6"><span>.col-6</span></div>
+    <div class="col-6"><span>.col-6</span></div>
+  </section>
 </body>
 </html>
